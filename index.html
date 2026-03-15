@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Typing Speed Battle</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>⚡ Typing Speed Battle</h1>
+
+<p id="quote"></p>
+
+<div class="progress-container">
+<div id="progress"></div>
+</div>
+
+<textarea id="input" placeholder="Start typing here..."></textarea>
+
+<div class="stats">
+
+<div>
+<h3>Time</h3>
+<p id="time">0</p>
+</div>
+
+<div>
+<h3>WPM</h3>
+<p id="wpm">0</p>
+</div>
+
+<div>
+<h3>Accuracy</h3>
+<p id="accuracy">100%</p>
+</div>
+
+</div>
+
+<p id="result"></p>
+
+<h3>🏆 Leaderboard</h3>
+<ul id="leaderboard"></ul>
+
+<button id="restart">Restart</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
